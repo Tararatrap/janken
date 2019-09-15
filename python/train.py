@@ -85,8 +85,3 @@ plt.title('Training and validation loss')
 plt.legend()
 
 plt.show()
-
-base = os.path.dirname(os.path.abspath(__file__))
-save_path = os.path.join(base, '../nodejs/static/janken')
-
-tfjs.converters.save_keras_model(model, save_path)
