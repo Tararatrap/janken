@@ -1,2 +1,3 @@
-
 nodejs/node_modules
+nodejs/*.json
+nodejs/static/web_model
